@@ -1,0 +1,623 @@
+(kicad_sch
+	(version 20260306)
+	(generator "eeschema")
+	(generator_version "10.0")
+	(uuid "fe5af848-2e71-4fbb-a1d7-d6c276ce667e")
+	(paper "A4")
+	(title_block
+		(title "LuckFox Core 3506 Adapter")
+		(date "2026-02-04")
+		(rev "A")
+		(company "Rufilla Ltd.")
+		(comment 1 "Owen O'Hehir")
+		(comment 2 "Copyright 2026 Rufilla Ltd.")
+		(comment 3 "SPDX-License-Identifier: Apache-2.0")
+	)
+	(lib_symbols)
+	(wire
+		(pts
+			(xy -26.67 1709.42) (xy -26.67 2129.79)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "0d6f2989-c1b8-458a-a777-6fcf80f1bcd1")
+	)
+	(wire
+		(pts
+			(xy 49.53 2132.33) (xy 49.53 2137.41)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "163798a5-4fed-4be8-85f5-e131ab10c55d")
+	)
+	(wire
+		(pts
+			(xy 55.88 1724.66) (xy 55.88 1709.42)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "22690cff-18dd-4d55-9712-7b8791aec3d2")
+	)
+	(wire
+		(pts
+			(xy -26.67 2129.79) (xy 53.34 2129.79)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "29204ff9-b4b2-4391-bb31-c43ca23aa04e")
+	)
+	(wire
+		(pts
+			(xy 53.34 2129.79) (xy 53.34 2137.41)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "2fb45a60-75c2-4749-8333-4fb186c46625")
+	)
+	(wire
+		(pts
+			(xy 49.53 1714.5) (xy -20.32 1714.5)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "3aef7128-1d5b-4ee6-9b42-c40e7e0c0421")
+	)
+	(wire
+		(pts
+			(xy -20.32 1714.5) (xy -20.32 2132.33)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "7e0c0d11-7a0e-4432-a4fc-eb60b4412e0d")
+	)
+	(wire
+		(pts
+			(xy 55.88 1709.42) (xy -26.67 1709.42)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "7e76bdd7-2f7c-4074-91ae-cd04c5b49ce9")
+	)
+	(wire
+		(pts
+			(xy 49.53 1724.66) (xy 49.53 1714.5)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "9a4c204c-4dc2-4720-aded-cd5f25b5d05f")
+	)
+	(wire
+		(pts
+			(xy -20.32 2132.33) (xy 49.53 2132.33)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "dcc3cbbb-4177-414a-ae72-259636129621")
+	)
+	(sheet
+		(at 6.35 1501.14)
+		(size 285.75 200.66)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0)
+		)
+		(uuid "0e43feeb-6910-4d50-b6f1-317e2cf505a6")
+		(property "Sheetname" "TF card"
+			(at 6.35 1500.4284 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "tf_card.kicad_sch"
+			(at 6.35 1702.3846 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(instances
+			(project "luckfox_core3506_adapter"
+				(path "/fe5af848-2e71-4fbb-a1d7-d6c276ce667e"
+					(page "7")
+				)
+			)
+		)
+	)
+	(sheet
+		(at 1.27 843.28)
+		(size 292.1 204.47)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0)
+		)
+		(uuid "5392e6ae-6fd4-4564-8122-523f605071d9")
+		(property "Sheetname" "Power regulation"
+			(at 1.27 842.5684 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "power_regulation.kicad_sch"
+			(at 1.27 1048.3346 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(instances
+			(project "luckfox_core3506_adapter"
+				(path "/fe5af848-2e71-4fbb-a1d7-d6c276ce667e"
+					(page "4")
+				)
+			)
+		)
+	)
+	(sheet
+		(at 3.81 1070.61)
+		(size 289.56 198.12)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0)
+		)
+		(uuid "8430554e-fa8b-4dc8-9060-f4766c778e73")
+		(property "Sheetname" "USB interfaces"
+			(at 3.81 1069.8984 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "usb_interfaces.kicad_sch"
+			(at 3.81 1269.3146 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(instances
+			(project "luckfox_core3506_adapter"
+				(path "/fe5af848-2e71-4fbb-a1d7-d6c276ce667e"
+					(page "5")
+				)
+			)
+		)
+	)
+	(sheet
+		(at 1.27 615.95)
+		(size 294.64 200.66)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0)
+		)
+		(uuid "870c5b14-24c7-462e-93ab-9225a8f3f3e0")
+		(property "Sheetname" "Power tree"
+			(at 1.27 615.2384 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "power_tree.kicad_sch"
+			(at 1.27 817.1946 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(instances
+			(project "luckfox_core3506_adapter"
+				(path "/fe5af848-2e71-4fbb-a1d7-d6c276ce667e"
+					(page "3")
+				)
+			)
+		)
+	)
+	(sheet
+		(at 0 226.06)
+		(size 295.91 177.8)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0)
+		)
+		(uuid "8b32235d-1e16-4595-8a54-413257c6271f")
+		(property "Sheetname" "Contents & revisions"
+			(at 0 225.3484 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "contents_revisions.kicad_sch"
+			(at 0 404.4446 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(instances
+			(project "luckfox_core3506_adapter"
+				(path "/fe5af848-2e71-4fbb-a1d7-d6c276ce667e"
+					(page "1")
+				)
+			)
+		)
+	)
+	(sheet
+		(at 6.35 1724.66)
+		(size 288.29 186.69)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0)
+		)
+		(uuid "c19c1c4e-9813-4125-93e8-41d317b7d0f3")
+		(property "Sheetname" "GPIO Header & boot keys"
+			(at 6.35 1723.9484 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "misc.kicad_sch"
+			(at 6.35 1911.9346 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(pin "I2C2_SCL" input
+			(at 49.53 1724.66 90)
+			(uuid "061f958c-e970-44ce-9519-6c1797d809ed")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(pin "I2C2_SDA" input
+			(at 55.88 1724.66 90)
+			(uuid "0cb23f73-b439-4f23-9323-2a1fb1139d75")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(instances
+			(project "luckfox_core3506_adapter"
+				(path "/fe5af848-2e71-4fbb-a1d7-d6c276ce667e"
+					(page "9")
+				)
+			)
+		)
+	)
+	(sheet
+		(at 5.08 1289.05)
+		(size 288.29 191.77)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0)
+		)
+		(uuid "cb0db5f7-8405-48ec-90fb-086b59d37e71")
+		(property "Sheetname" "Ethernet"
+			(at 5.08 1288.3384 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "ethernet.kicad_sch"
+			(at 5.08 1481.4046 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(instances
+			(project "luckfox_core3506_adapter"
+				(path "/fe5af848-2e71-4fbb-a1d7-d6c276ce667e"
+					(page "6")
+				)
+			)
+		)
+	)
+	(sheet
+		(at 7.62 1932.94)
+		(size 288.29 190.5)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0)
+		)
+		(uuid "e7438b2f-3afc-409c-bf2b-77ad93e30de5")
+		(property "Sheetname" "Misc"
+			(at 7.62 1932.2284 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "test_mechanical.kicad_sch"
+			(at 7.62 2124.0246 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(instances
+			(project "luckfox_core3506_adapter"
+				(path "/fe5af848-2e71-4fbb-a1d7-d6c276ce667e"
+					(page "10")
+				)
+			)
+		)
+	)
+	(sheet
+		(at 7.62 2137.41)
+		(size 288.29 190.5)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0)
+		)
+		(uuid "e7be76ea-6027-4532-98b1-6f408ecf38ac")
+		(property "Sheetname" "DSI"
+			(at 7.62 2136.6984 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "dsi.kicad_sch"
+			(at 7.62 2328.4946 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(pin "I2C2_SCL" input
+			(at 49.53 2137.41 90)
+			(uuid "6d4fa6c1-d8a7-4df0-a669-513dc6a9f9cc")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(pin "I2C2_SDA" input
+			(at 53.34 2137.41 90)
+			(uuid "dce804cd-71dd-4fd2-8488-9f3cc36eda53")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(instances
+			(project "luckfox_core3506_adapter"
+				(path "/fe5af848-2e71-4fbb-a1d7-d6c276ce667e"
+					(page "8")
+				)
+			)
+		)
+	)
+	(sheet
+		(at 1.27 411.48)
+		(size 295.91 177.8)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0)
+		)
+		(uuid "f334d8b1-1f66-4dd4-b7d3-9e4345f0dbf6")
+		(property "Sheetname" "Block diagram"
+			(at 1.27 410.7684 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "block.kicad_sch"
+			(at 1.27 589.8646 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(instances
+			(project "luckfox_core3506_adapter"
+				(path "/fe5af848-2e71-4fbb-a1d7-d6c276ce667e"
+					(page "2")
+				)
+			)
+		)
+	)
+	(sheet_instances
+		(path "/"
+			(page "0")
+		)
+	)
+	(embedded_fonts no)
+)

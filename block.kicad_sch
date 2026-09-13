@@ -1,0 +1,813 @@
+(kicad_sch
+	(version 20260306)
+	(generator "eeschema")
+	(generator_version "10.0")
+	(uuid "4ef3b335-73ef-4139-953e-af6a7d4bf473")
+	(paper "A4")
+	(title_block
+		(title "LuckFox Core 3506 Adapter")
+		(date "2026-02-04")
+		(rev "A")
+		(company "Rufilla Ltd.")
+		(comment 1 "Owen O'Hehir")
+		(comment 2 "Copyright 2026 Rufilla Ltd.")
+		(comment 3 "SPDX-License-Identifier: Apache-2.0")
+	)
+	(lib_symbols)
+	(rectangle
+		(start 183.6703 40.294)
+		(end 218.5953 58.074)
+		(stroke
+			(width 0)
+			(type dot)
+		)
+		(fill
+			(type none)
+		)
+		(uuid "1bb63b8e-663e-4315-afce-1dac26ea9c8b")
+	)
+	(rectangle
+		(start 139.827 147.828)
+		(end 167.132 164.973)
+		(stroke
+			(width 0)
+			(type solid)
+		)
+		(fill
+			(type none)
+		)
+		(uuid "3c05e298-d290-4fa2-8720-502173bcb1c3")
+	)
+	(rectangle
+		(start 203.2 67.31)
+		(end 238.76 90.17)
+		(stroke
+			(width 0)
+			(type solid)
+		)
+		(fill
+			(type none)
+		)
+		(uuid "4193162a-1b92-4ca1-a354-d131f8262117")
+	)
+	(rectangle
+		(start 130.81 69.215)
+		(end 176.53 132.715)
+		(stroke
+			(width 0)
+			(type solid)
+		)
+		(fill
+			(type none)
+		)
+		(uuid "5cb22718-96ee-4394-820c-d6f4cb964ac9")
+	)
+	(rectangle
+		(start 44.45 67.945)
+		(end 70.485 85.725)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(fill
+			(type none)
+		)
+		(uuid "69f24d60-07f4-495f-9e73-2e397ee83bc4")
+	)
+	(rectangle
+		(start 135.89 40.005)
+		(end 170.815 57.785)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(fill
+			(type none)
+		)
+		(uuid "71209ee5-f568-4e20-909c-2b83d5a8c7eb")
+	)
+	(rectangle
+		(start 44.45 41.275)
+		(end 70.485 59.055)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(fill
+			(type none)
+		)
+		(uuid "9164c481-a5b2-40f8-a5cc-b57745c78e0c")
+	)
+	(rectangle
+		(start 203.2 95.885)
+		(end 238.76 118.745)
+		(stroke
+			(width 0)
+			(type solid)
+		)
+		(fill
+			(type none)
+		)
+		(uuid "b97931e1-f146-4242-95a2-388302dcf0a1")
+	)
+	(rectangle
+		(start 72.644 107.569)
+		(end 108.204 130.429)
+		(stroke
+			(width 0)
+			(type solid)
+		)
+		(fill
+			(type none)
+		)
+		(uuid "caeb37df-fa76-4479-869a-45d0bde9beb6")
+	)
+	(rectangle
+		(start 80.772 70.739)
+		(end 96.647 82.804)
+		(stroke
+			(width 0)
+			(type solid)
+		)
+		(fill
+			(type none)
+		)
+		(uuid "cc755aa3-d4bc-4d23-b3e6-a960a59de4fa")
+	)
+	(text "RMII0\nTX/RX\nMDIO/MDC"
+		(exclude_from_sim no)
+		(at 188.976 70.993 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify top)
+		)
+		(uuid "0b9ef81f-d251-4017-908c-814855ebdd80")
+	)
+	(text "Booting:\nRecovery button released:\n1. eMMC\n2. SD\n\nRecovery button pressed at reset:\nEnumerate as USB device"
+		(exclude_from_sim no)
+		(at 22.606 170.688 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "17d38901-9ac4-4c0e-8ae1-0326de9154fc")
+	)
+	(text "NPOR_L\nSARADC_IN0\nUART0_TX/RX"
+		(exclude_from_sim no)
+		(at 156.464 137.541 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left top)
+		)
+		(uuid "20450c93-edda-47cf-ab55-3216190f9836")
+	)
+	(text "USB-C OTG1\n(Host)\n500mA Limit"
+		(exclude_from_sim no)
+		(at 57.912 76.327 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+		(uuid "20465b96-d02e-4ae1-90ee-37083e080585")
+	)
+	(text "Voltage Converter\n5v to 3.3v\nLDO\nME6217C33M5G"
+		(exclude_from_sim no)
+		(at 152.019 49.022 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+		(uuid "26cb1f82-f27a-420d-b087-53d2d3588891")
+	)
+	(text "Power Flow: USB-C OTG0 VBUS → 5V Rail → SOM -> Ancillaries\nUSB OTG1 powered from 5V rail via TPS2553 current limiter"
+		(exclude_from_sim no)
+		(at 23.114 138.176 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+				(italic yes)
+			)
+			(justify left top)
+		)
+		(uuid "29656087-a6fc-4261-a190-053920e7fd52")
+	)
+	(text "USB-C\nPower & Flash"
+		(exclude_from_sim no)
+		(at 57.912 50.419 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+		(uuid "6e99a4c9-d1fc-48fb-8826-f0b33ee522a1")
+	)
+	(text "TF/SD Card\n\nSDMMC\nTF-110 Socket\nCard Detect"
+		(exclude_from_sim no)
+		(at 220.726 100.457 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify top)
+		)
+		(uuid "796b52da-c66d-4478-9161-b37597c0a210")
+	)
+	(text "5v/ 1A\n"
+		(exclude_from_sim no)
+		(at 134.874 77.089 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+		(uuid "79dc5777-d8b2-4a55-94e5-c04ccfe48b6a")
+	)
+	(text "3.3v"
+		(exclude_from_sim no)
+		(at 177.038 47.752 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+		(uuid "7da2008a-c2d9-4eee-84ca-578edeb63058")
+	)
+	(text "VBUS Out"
+		(exclude_from_sim no)
+		(at 98.806 47.244 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left top)
+		)
+		(uuid "8188561f-4936-4cf1-bd12-024ae5e5097c")
+	)
+	(text "System Block Diagram"
+		(exclude_from_sim no)
+		(at 107.442 22.098 0)
+		(effects
+			(font
+				(size 5.08 5.08)
+				(thickness 0.635)
+				(color 0 132 0 1)
+			)
+			(justify left top)
+		)
+		(uuid "850e0049-13e6-458e-97b5-4d4b5e6bd99e")
+	)
+	(text "Boot & Debug\n\nMASKROM Button\nReset Button\nUART Debug Header"
+		(exclude_from_sim no)
+		(at 152.4 152.019 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify top)
+		)
+		(uuid "855f5192-6f9a-4c2c-88c4-a0972a48c655")
+	)
+	(text "Future Addition"
+		(exclude_from_sim no)
+		(at 202.184 48.514 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+		(uuid "893c7cca-e1ba-481d-8fdb-45ceaaee1dd7")
+	)
+	(text "GPIO Header\n40 Pin"
+		(exclude_from_sim no)
+		(at 89.662 116.713 0)
+		(effects
+			(font
+				(size 1.778 1.778)
+			)
+			(justify top)
+		)
+		(uuid "8cb66ac6-5024-4035-b903-230ec894ba3d")
+	)
+	(text "USB D+/D-"
+		(exclude_from_sim no)
+		(at 94.996 86.106 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left top)
+		)
+		(uuid "91b1178b-4098-409c-9ba1-db820dfdb9eb")
+	)
+	(text "SDMMC\nCLK/CMD\nD0-D3"
+		(exclude_from_sim no)
+		(at 185.166 100.711 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left top)
+		)
+		(uuid "9286195b-969a-4ade-aa02-a1b3b816db93")
+	)
+	(text "LuckFox Core3506\n3 x Cortex A7\n1 x Cortex M0\n512MB DDR3L\n8GB eMMC (Optional)\n\n32mm x 32mm\n120 castellated holes\n"
+		(exclude_from_sim no)
+		(at 153.67 99.695 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+		(uuid "c37af13d-293f-400c-8c62-47e4d834554a")
+	)
+	(text "Ethernet\n\nRMII0\nHR911105A\nRJ45 + Magnetics"
+		(exclude_from_sim no)
+		(at 221.742 73.787 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify top)
+		)
+		(uuid "c9151dce-a4fc-4fb7-aa5e-938b98008659")
+	)
+	(text "• USB-C OTG0: Device/Flash + Power Input\n• USB-C OTG1: Host (500mA protected)\n• RJ45 Ethernet (10/100 Mbps)\n• TF Card Socket (microSD)\n• UART Debug Header\n• Boot/Reset Buttons\n• Power & Status LEDs"
+		(exclude_from_sim no)
+		(at 22.352 146.05 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left top)
+		)
+		(uuid "d0656b9e-4002-4a12-b70c-e069608f5cbb")
+	)
+	(text "VBUS Switch\n\nTPS2553\n500mA Limit"
+		(exclude_from_sim no)
+		(at 88.265 73.66 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify top)
+		)
+		(uuid "f0e5b749-1db9-4ee0-94bc-12e00d3c6343")
+	)
+	(text "USB D+/D- VBUSDET ID"
+		(exclude_from_sim no)
+		(at 91.44 53.848 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify top)
+		)
+		(uuid "ff88bdd2-aa88-44df-be95-24bc0895361c")
+	)
+	(polyline
+		(pts
+			(xy 64.135 85.725) (xy 64.135 87.63)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "22de5159-0c0a-40e3-8c3a-71e81541140e")
+	)
+	(polyline
+		(pts
+			(xy 114.3 48.895) (xy 114.3 75.692)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "36ea469f-01cb-4f1d-a713-a8fff988e982")
+	)
+	(polyline
+		(pts
+			(xy 182.245 48.895) (xy 170.815 48.895)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "3aa312df-1314-464d-86fe-4ee5366ebd5e")
+	)
+	(polyline
+		(pts
+			(xy 152.4 132.715) (xy 152.4 146.939)
+		)
+		(stroke
+			(width 0)
+			(type solid)
+		)
+		(uuid "50c4e596-f080-4545-907b-2d0cf5e2235c")
+	)
+	(polyline
+		(pts
+			(xy 122.555 52.705) (xy 122.555 72.39)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "54b76563-a5d8-4eb3-a563-e65f842d2512")
+	)
+	(polyline
+		(pts
+			(xy 70.485 48.895) (xy 114.3 48.895)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "6ac294da-5b0c-4a0d-a846-78c3ecff0e0b")
+	)
+	(polyline
+		(pts
+			(xy 122.555 72.39) (xy 130.81 72.39)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "6d284dde-e407-4d1c-9650-f430734ada46")
+	)
+	(polyline
+		(pts
+			(xy 203.2 107.315) (xy 177.546 107.315)
+		)
+		(stroke
+			(width 0)
+			(type solid)
+		)
+		(uuid "7aabf292-bcb7-460f-8355-20f6d435bad7")
+	)
+	(polyline
+		(pts
+			(xy 97.79 76.962) (xy 106.68 76.962)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "ace0fc48-55c4-420f-9ed1-8276a54fa26b")
+	)
+	(polyline
+		(pts
+			(xy 105.41 76.962) (xy 130.81 76.962)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "adf9197c-8246-4cf3-933c-c1e1ec9a6da2")
+	)
+	(polyline
+		(pts
+			(xy 176.53 78.105) (xy 202.184 78.105)
+		)
+		(stroke
+			(width 0)
+			(type solid)
+		)
+		(uuid "b2d1caa7-4ac0-4a86-956d-f85b6808be35")
+	)
+	(polyline
+		(pts
+			(xy 70.485 76.835) (xy 80.645 76.835)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "bec0b279-c3dd-405d-87ff-900b419ec7ad")
+	)
+	(polyline
+		(pts
+			(xy 64.135 87.63) (xy 130.81 87.63)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "c5a8c70e-5e29-422b-911f-0a57fcfe3e59")
+	)
+	(polyline
+		(pts
+			(xy 70.485 52.705) (xy 122.555 52.705)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "ddd493aa-aa68-4706-b75d-a3b831cab969")
+	)
+	(polyline
+		(pts
+			(xy 114.3 48.895) (xy 135.89 48.895)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "f8f9c27b-9475-441c-ac54-fa7874775fd6")
+	)
+	(polyline
+		(pts
+			(xy 108.585 118.745) (xy 129.794 118.745)
+		)
+		(stroke
+			(width 0)
+			(type solid)
+		)
+		(uuid "fa4f8f42-1e4c-44c0-8281-b899a8025087")
+	)
+	(rule_area
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(polyline
+			(pts
+				(xy 183.515 48.895) (xy 182.245 47.625) (xy 182.245 50.165)
+			)
+			(stroke
+				(width 0)
+				(type solid)
+				(color 20 14 255 1)
+			)
+			(fill
+				(type color)
+				(color 38 21 255 1)
+			)
+			(uuid "06432083-05bc-4197-9637-0500cb788331")
+		)
+	)
+	(rule_area
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(polyline
+			(pts
+				(xy 130.81 118.745) (xy 129.54 117.475) (xy 129.54 120.015)
+			)
+			(stroke
+				(width 0)
+				(type solid)
+				(color 20 14 255 1)
+			)
+			(fill
+				(type color)
+				(color 38 21 255 1)
+			)
+			(uuid "19a3b80d-851c-4c90-ab77-923635827e3c")
+		)
+	)
+	(rule_area
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(polyline
+			(pts
+				(xy 71.12 76.835) (xy 72.39 78.105) (xy 72.39 75.565)
+			)
+			(stroke
+				(width 0)
+				(type solid)
+				(color 20 14 255 1)
+			)
+			(fill
+				(type color)
+				(color 38 21 255 1)
+			)
+			(uuid "204996ae-4675-4037-8361-4d9c928745cd")
+		)
+	)
+	(rule_area
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(polyline
+			(pts
+				(xy 114.3 76.708) (xy 115.57 74.676) (xy 113.03 74.676)
+			)
+			(stroke
+				(width 0)
+				(type solid)
+				(color 20 14 255 1)
+			)
+			(fill
+				(type color)
+				(color 38 21 255 1)
+			)
+			(uuid "3f300d75-ba41-4396-bd17-3a3dbe75c03c")
+		)
+	)
+	(rule_area
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(polyline
+			(pts
+				(xy 135.89 48.895) (xy 134.62 47.625) (xy 134.62 50.165)
+			)
+			(stroke
+				(width 0)
+				(type solid)
+				(color 20 14 255 1)
+			)
+			(fill
+				(type color)
+				(color 38 21 255 1)
+			)
+			(uuid "7414d6e4-da01-4964-a089-040821f1b881")
+		)
+	)
+	(rule_area
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(polyline
+			(pts
+				(xy 96.52 76.835) (xy 97.79 78.105) (xy 97.79 75.565)
+			)
+			(stroke
+				(width 0)
+				(type solid)
+				(color 20 14 255 1)
+			)
+			(fill
+				(type color)
+				(color 38 21 255 1)
+			)
+			(uuid "847a9405-5934-4331-8bc1-7ef16aef4303")
+		)
+	)
+	(rule_area
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(polyline
+			(pts
+				(xy 107.95 118.745) (xy 109.22 120.015) (xy 109.22 117.475)
+			)
+			(stroke
+				(width 0)
+				(type solid)
+				(color 20 14 255 1)
+			)
+			(fill
+				(type color)
+				(color 38 21 255 1)
+			)
+			(uuid "8cee0ffa-6428-4fa9-b20d-15fb6ce0490e")
+		)
+	)
+	(rule_area
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(polyline
+			(pts
+				(xy 203.2 78.105) (xy 201.93 76.835) (xy 201.93 79.375)
+			)
+			(stroke
+				(width 0)
+				(type solid)
+				(color 20 14 255 1)
+			)
+			(fill
+				(type color)
+				(color 38 21 255 1)
+			)
+			(uuid "9b24414c-8965-4c39-af8f-e396230d8403")
+		)
+	)
+	(rule_area
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(polyline
+			(pts
+				(xy 130.81 77.089) (xy 129.54 75.819) (xy 129.54 78.359)
+			)
+			(stroke
+				(width 0)
+				(type solid)
+				(color 20 14 255 1)
+			)
+			(fill
+				(type color)
+				(color 38 21 255 1)
+			)
+			(uuid "ad53d197-74c6-40a0-ab05-4091e426907e")
+		)
+	)
+	(rule_area
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(polyline
+			(pts
+				(xy 176.53 107.315) (xy 177.8 108.585) (xy 177.8 106.045)
+			)
+			(stroke
+				(width 0)
+				(type solid)
+				(color 20 14 255 1)
+			)
+			(fill
+				(type color)
+				(color 38 21 255 1)
+			)
+			(uuid "af962e1f-4738-400d-90f5-b4f925cffbeb")
+		)
+	)
+	(rule_area
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(polyline
+			(pts
+				(xy 152.4 147.955) (xy 153.67 146.685) (xy 151.13 146.685)
+			)
+			(stroke
+				(width 0)
+				(type solid)
+				(color 20 14 255 1)
+			)
+			(fill
+				(type color)
+				(color 38 21 255 1)
+			)
+			(uuid "b208d952-5e6e-47a1-9e58-dfd47434f97e")
+		)
+	)
+	(rule_area
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(polyline
+			(pts
+				(xy 130.81 72.39) (xy 129.54 71.12) (xy 129.54 73.66)
+			)
+			(stroke
+				(width 0)
+				(type solid)
+				(color 20 14 255 1)
+			)
+			(fill
+				(type color)
+				(color 38 21 255 1)
+			)
+			(uuid "d540b409-7979-4a10-abee-76e704e31cf4")
+		)
+	)
+	(rule_area
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(polyline
+			(pts
+				(xy 130.81 87.63) (xy 129.54 86.36) (xy 129.54 88.9)
+			)
+			(stroke
+				(width 0)
+				(type solid)
+				(color 20 14 255 1)
+			)
+			(fill
+				(type color)
+				(color 38 21 255 1)
+			)
+			(uuid "e83114de-883a-4315-ac6f-f296bde7a685")
+		)
+	)
+	(sheet_instances
+		(path "/"
+			(page "1")
+		)
+	)
+)

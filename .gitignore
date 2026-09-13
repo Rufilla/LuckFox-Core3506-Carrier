@@ -1,0 +1,18 @@
+# KiCad local history & backups
+.history/
+*-backups/
+_autosave-*
+\#auto_saved_files\#
+
+# Lock files
+*.lck
+
+# Per-user settings & caches
+*.kicad_prl
+fp-info-cache
+
+# Regenerable reports & exports (production/ is tracked)
+*.rpt
+*.net
+*.gbr
+*.drl
